@@ -46,3 +46,14 @@ Each script reads the output of the step and writes its own output file forming 
  `chart3_distance_vs_cost.png` — Scatter plot of distance vs. shipping cost by zone.
  `chart4_correlation_heatmap.png` — Correlation heatmap of key logistics variables.
  `chart5_delay_by_warehouse.png` — Boxplot of delivery delay distribution by warehouse.
+
+
+
+ 
+## Week 4 Files — Predictive Modeling & Optimization
+
+- `train_models.py` — Trains and evaluates Linear Regression, Decision Tree, and Random Forest models to predict delivery delay, using 5-fold cross-validation and feature importance extraction.
+- `model_results.csv` — Test and cross-validated RMSE/MAE/R² results for each model.
+- `feature_importance.csv` — Feature importance rankings from the Random Forest model.
+- `chart_model_comparison.png` — Bar chart comparing test vs. cross-validated RMSE across models.
+- `chart_feature_importance.png` — Bar chart of top predictors of delivery delay.

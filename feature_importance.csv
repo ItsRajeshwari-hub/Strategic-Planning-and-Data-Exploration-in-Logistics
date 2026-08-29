@@ -1,0 +1,14 @@
+feature,importance
+order_weight_kg,0.23052041442475785
+inventory_level,0.22710384157713104
+distance_km,0.20841209640136482
+shipping_cost,0.19352085627334806
+destination_zone_Central,0.02887353363152258
+destination_zone_North,0.0262469686202445
+origin_warehouse_warehouse_d,0.025174022708955565
+origin_warehouse_warehouse_b,0.024473347134908903
+destination_zone_South,0.019625509144008273
+destination_zone_West,0.007717359094625785
+origin_warehouse_warehouse_c,0.004462633108418446
+origin_warehouse_warehouse_a,0.0035806368803330403
+destination_zone_East,0.0002887810003811013

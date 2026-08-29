@@ -36,3 +36,13 @@ Key Performance Indicators (KPIs)
  `standardize_categorical.py`. This script standardises inconsistent warehouse name formatting to ensure uniformity across the dataset. It completes the data cleaning & preprocessing sequence.
 
 Each script reads the output of the step and writes its own output file forming a sequential data cleaning & preprocessing pipeline: `load_and_deduplicate.py` → `handle_missing_values.py` → `outlier_detection.py` → `normalization.py` → `standardize_categorical.py`.
+
+## Week 3 Task: Advanced Data Analysis and Visualization in Logistics
+
+This report shows a look at the data we worked on for the logistics project. We did this analysis over the two weeks using the data that was cleaned and prepared in week two. We looked at some numbers like how far the deliveries are, how heavy the orders are, how much it costs to ship how much stock is in the warehouse and a new number we created called delivery delay. We checked how these numbers are related to each other and what they tell us.
+
+We made five pictures using tools in Python like matplotlib and seaborn. Each picture helps us see things. One picture shows how far deliveries usually are another compares how much it costs to ship to places another looks at how distance and cost are connected another shows how all the numbers are related and the last one compares how long it takes to deliver from different warehouses.
+
+What we found is clear. The cost to ship is mostly because of how the delivery is and that connection is pretty strong. The weight of the order also has some effect on the cost. The time it takes to deliver is not really connected to how it is. Instead it looks like some warehouses are doing better than others. One warehouse had more variation, in how long it took to deliver and that was easy to see in the picture we made.
+
+The website where we put all our work has the code we used to make the pictures and the pictures themselves. That way anyone can check the work again. All the numbers and pictures help us make suggestions for making the logistics work better.
